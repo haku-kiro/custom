@@ -14,7 +14,17 @@ for _, lsp in ipairs(servers) do
 end
 
 local pid = vim.fn.getpid()
-local omnisharp_bin = "/Users/michaeldacosta/.local/share/nvim/mason/packages/omnisharp-mono/run" -- BREAKING POINT: Location differs on different installs
+-- TODO: Check for windows as well?
+local is_mac = vim.loop.os_uname().sysname == "Darwin"
+
+-- default to linux install location,
+local omnisharp_bin = "/home/odin/.local/share/nvim/mason/bin/omnisharp-mono"
+
+if is_mac then
+  -- Mac install location,
+  omnisharp_bin = "/Users/michaeldacosta/.local/share/nvim/mason/packages/omnisharp-mono/run"
+end
+
 lspconfig["omnisharp"].setup {
   capabilities = capabilities,
   on_attach = on_attach,
