@@ -22,6 +22,9 @@ local sources = {
   -- Golang
   b.diagnostics.revive,
   b.formatting.gofmt,
+
+  -- csharp
+  b.formatting.csharpier,
 }
 
 null_ls.setup {

@@ -72,6 +72,7 @@ M.mason = {
     "omnisharp",
     "jedi-language-server",
     "revive",
+    "csharpier",
   },
 }
 
