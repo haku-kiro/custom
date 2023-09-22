@@ -46,7 +46,13 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
-  -- These are ones I've installed myself.
+  -- Custom overrides,
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    opts = overrides.blankline,
+  },
+
+  -- Plugins I've installed myself
   {
     "tpope/vim-dadbod",
   },
