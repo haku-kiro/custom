@@ -73,6 +73,8 @@ M.mason = {
     "jedi-language-server",
     "revive",
     "csharpier",
+    "ocaml-lsp",
+    "ocamlformat",
   },
 }
 

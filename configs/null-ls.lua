@@ -26,6 +26,9 @@ local sources = {
 
   -- csharp
   b.formatting.csharpier,
+
+  -- ocaml
+  b.formatting.ocamlformat,
 }
 
 null_ls.setup {
