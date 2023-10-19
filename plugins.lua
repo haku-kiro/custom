@@ -38,6 +38,11 @@ local plugins = {
     opts = overrides.nvimtree,
   },
 
+  {
+    "hrsh7th/nvim-cmp",
+    opts = overrides.cmp,
+  },
+
   -- Install a plugin
   {
     "max397574/better-escape.nvim",
@@ -64,6 +69,10 @@ local plugins = {
     config = function()
       require("neoscroll").setup()
     end,
+    lazy = false,
+  },
+  {
+    "blazkowolf/gruber-darker.nvim",
     lazy = false,
   },
 }
