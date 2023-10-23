@@ -37,11 +37,11 @@ M.base_30 = {
   pmenu_bg = "#FFB07B",
   folder_bg = "#598cbf",
   comment = "#cc8c3c",
-  builtin = "#484848",
+  builtin = "#888F89",
 }
 
 M.base_16 = {
-  base00 = "#181818",
+  base00 = "#0b0b2b",
   base01 = "#0b0b2b",
   base02 = "#3A3A3A",
   base03 = "#FFFFFF",
