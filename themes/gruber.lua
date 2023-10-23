@@ -7,7 +7,7 @@ M.base_30 = {
   white = "#F8F8FF",
   white2 = "#DFDFE5",
   tan = "#CFC1B2",
-  darker_black = "#0c0c2d",
+  darker_black = "#181818",
   black = "#020222", --  nvim bg
   black2 = "#1A1A3A",
   one_bg = "#161636",
@@ -41,9 +41,9 @@ M.base_30 = {
 }
 
 M.base_16 = {
-  base00 = "#020222",
+  base00 = "#181818",
   base01 = "#0b0b2b",
-  base02 = "#161636",
+  base02 = "#3A3A3A",
   base03 = "#FFFFFF",
   base04 = "#e4e4eb",
   base05 = "#eeeef5",
@@ -73,9 +73,11 @@ M.polish_hl = {
   ["@type.builtin"] = { fg = M.base_30.builtin },
   Conditional = { fg = M.base_30.yellow },
   ["@field"] = { fg = M.base_16.base03 },
+  ["@constant"] = { fg = M.base_16.base03 },
   ["@property"] = { fg = M.base_16.base03 },
   ["@method.call"] = { fg = M.base_16.base03 },
   ["@function.call"] = { fg = M.base_16.base03 },
+  ["@keyword.operator"] = { fg = M.base_16.base03 },
   ["@keyword.return"] = { fg = M.base_30.yellow },
   Repeat = { fg = M.base_30.yellow },
   Boolean = { fg = M.base_30.yellow },
