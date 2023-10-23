@@ -8,7 +8,3 @@
 vim.opt.spelllang = 'en_us'
 vim.opt.spell = true
 vim.wo.relativenumber = true
-
--- sigh...
--- edit one of the nvchad themes to be -> https://github.com/blazkowolf/gruber-darker.nvim
--- vim.cmd("colorscheme gruber-darker")

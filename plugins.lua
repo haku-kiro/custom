@@ -71,10 +71,6 @@ local plugins = {
     end,
     lazy = false,
   },
-  {
-    "blazkowolf/gruber-darker.nvim",
-    lazy = false,
-  },
 }
 
 return plugins
