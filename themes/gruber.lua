@@ -1,6 +1,3 @@
--- Credits to https://github.com/fenetikm/falcon as its the orignal theme
--- This is a modified version of original theme
-
 local M = {}
 
 M.base_30 = {
@@ -8,16 +5,16 @@ M.base_30 = {
   white2 = "#DFDFE5",
   tan = "#CFC1B2",
   darker_black = "#181818",
-  black = "#020222", --  nvim bg
-  black2 = "#1A1A3A",
-  one_bg = "#161636",
-  one_bg2 = "#202040",
-  one_bg3 = "#2a2a4a",
+  black = "#030303", --  nvim bg
+  black2 = "#030303",
+  one_bg = "#0B0705",
+  one_bg2 = "#28231D",
+  one_bg3 = "#3C4748",
   grey = "#393959",
   grey_fg = "#434363",
   grey_fg2 = "#4d4d6d",
   light_grey = "#5c5c7c",
-  red = "#FF761A",
+  red = "#ffdd33",
   baby_pink = "#FF8E78",
   pink = "#ffafb7",
   line = "#202040", -- for lines like vertsplit
@@ -32,8 +29,8 @@ M.base_30 = {
   teal = "#34BFA4",
   orange = "#f99157",
   cyan = "#BFDAFF",
-  statusline_bg = "#0b0b2b",
-  lightbg = "#2a2a4a",
+  statusline_bg = "#3C4748",
+  lightbg = "#3C4748",
   pmenu_bg = "#FFB07B",
   folder_bg = "#598cbf",
   comment = "#cc8c3c",
@@ -41,8 +38,8 @@ M.base_30 = {
 }
 
 M.base_16 = {
-  base00 = "#0b0b2b",
-  base01 = "#0b0b2b",
+  base00 = "#181818",
+  base01 = "#00040D",
   base02 = "#3A3A3A",
   base03 = "#FFFFFF",
   base04 = "#e4e4eb",
